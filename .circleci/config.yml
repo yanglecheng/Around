@@ -8,7 +8,7 @@ jobs:
       - checkout
       - setup_remote_docker
       - run: |
-          docker build -t lecheng1231123/around .
+          docker build -t lecheng123123/around .
           docker login -u="$DOCKERHUB_USERNAME" -p="$DOCKERHUB_PASSWORD"
           docker push lecheng123123/around
 
